@@ -17,7 +17,7 @@ public class index {
 
 		// INICIO MENU PRINCIPAL
 		while (true) {
-			System.out.println("MERCEARIA HORFIFRUTE\n" + "1 - Estoque\n" + "2 - \n" + "3 - \n" + "4 - \n" + "5 - sair"
+			System.out.println("MERCEARIA HORFIFRUTE\n" + "1 - Estoque\n" + "2 - Funcionario\n" + "3 - \n" + "4 - \n" + "5 - sair"
 					+ "\nInfome a função desejada: ");
 			opcao = input.nextInt();
 			switch (opcao) {
