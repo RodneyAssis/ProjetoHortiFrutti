@@ -79,7 +79,7 @@ public class index {
 						System.out.println("Digite o nome do produto: ");
 						marcaProduto = input.next();
 						System.out.println(
-								"1 - Alterar preco\n" + "2 - Alterar quantidade" + "Informe a opcao desejada: ");
+								"1 - Alterar preco\n" + "2 - Alterar quantidade\nInforme a opcao desejada: ");
 						opcao = input.nextInt();
 						switch (opcao) {
 						case 1: {

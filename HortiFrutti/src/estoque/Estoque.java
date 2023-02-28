@@ -72,7 +72,7 @@ public class Estoque {
 	public void visualizarLista() {
 		// Verificar Lista
 		estoque.forEach(nome -> {
-			System.out.printf("Tipo do Produto: %s\nMarca: %s\nPreco: R$%.2f\nQuant: %d unid.\n\n", nome.p.getTipo(),
+			System.out.printf("ID: %04d\nTipo do Produto: %s\nMarca: %s\nPreco: R$%.2f\nQuant: %d unid.\n\n", nome.p.getId(),nome.p.getTipo(),
 					nome.p.getMarca().substring(0, 1).toUpperCase().concat(nome.p.getMarca().substring(1)),
 					nome.p.getPreco(), nome.getQuantidade());
 		});
